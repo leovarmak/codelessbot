@@ -1,0 +1,139 @@
+/*
+
+ref: https://codepen.io/tutsplus/pen/MrjYJK
+
+.particle {
+	position: absolute;
+ 	border-radius: 50%;
+}
+
+
+@for $i from 1 through 30 {
+	@keyframes particle-animation-#{$i} {
+		100% {
+			transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		}
+	}
+
+	.particle:nth-child(#{$i}){
+		animation: particle-animation-#{$i} 60s infinite;
+		$size: random(5) + 5 + px;
+		opacity: random(100)/100;
+		height: $size;
+		width: $size;
+		animation-delay: -$i * .2s;
+		transform: translate3d((random(90) * 1vw), (random(90) * 1vh), (random(100) * 1px));
+		background: hsl(random(360), 70%, 50%);
+	}
+}
+*/
+
+
+/* vertical movement */
+
+/* REF: https://codepen.io/ktrane331/pen/dzaPZz */
+
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+
+/* bot-shadow */
+/* ref: https://codepen.io/amirbaig_87/pen/ZoEQzg */
+
+.bot-shadow{
+  height:2px;
+  display:block;
+  margin:5px auto;
+  animation: 2s infinite alternate bot-shadow;
+}
+
+@keyframes floating {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-5px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}
+@keyframes bot-shadow {
+	0% {
+    width:50px;
+		box-shadow:0px 5px 4px rgba(0,0,0,1);
+	}
+	50% {
+    width:25px;
+		box-shadow:0px 5px 4px rgba(0,0,0,.5);
+	}
+	100% {
+    width:50px;
+		box-shadow:0px 5px 4px rgba(0,0,0,1);
+	}
+}
+
+
+/* Checkboxes */
+
+/* https://developer.mozilla.org/en-US/docs/Learn/HTML/Forms/Advanced_styling_for_HTML_forms */
+
+input[type=checkbox] {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+
+}
+
+input[type=checkbox] {
+  position: relative;
+  width: 1.2em;
+  height: 1em;
+  border: 0.5px solid gray;
+  /* Adjusts the position of the checkboxes on the text baseline */
+  vertical-align: -2px;
+  /* Set here so that Windows' High-Contrast Mode can override */
+  color: green;
+  border-radius: 100%;
+}
+
+input[type=checkbox]::before {
+  content: "✔";
+  position: absolute;
+  font-size: 0.8em;
+  right: 0.5;
+  top: -0.1em;
+  visibility: hidden;
+  padding-left: 2px;
+
+}
+
+input[type=checkbox]:checked::before {
+  /* Use `visibility` instead of `display` to avoid recalculating layout */
+  visibility: visible;
+}
+
+input[type=checkbox]:disabled {
+  border-color: black;
+  background: #ddd;
+  color: gray;
+}
+
+input[type=checkbox]:hover {
+    box-shadow:0px 0px 5px green;
+}

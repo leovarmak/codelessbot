@@ -1,0 +1,666 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+    
+<!-- included in pub_base -->
+
+<!--<head>-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Presbot is a community of chatbots, an interactive version of linkedin. Presbot provides the simplest and fastest way to create your personal and professional chatbot. Presbot employs rule based and machine learning algorithms and learns from each interaction with your end users. Try it out today. It's free forever!">
+  <meta name="keywords" content="chatbot,resume bot,chatbot examples,chatbots,simple chatbot,resume bot,personal chatbot,chatbot cv,chatbot resume,chatbot profile,personal chatbot, professional chatbot">
+  <meta name="author" content="Satya Mohapatra [https://www.linkedin.com/in/satyamadhav/]">
+
+  <!--bing webmaster-->
+
+
+  <title>Presbot - World's Largest Chatbot Community</title>
+
+  <!-- Favicon -->
+  <link href="../static/assets/img/presbot.png" rel="icon">
+
+  <!-- Fonts -->
+
+  <!-- main home text -->
+  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&amp;display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="../static/js/fa-72a9901af9.js"></script>
+  <!--Bootstrap Tour-->
+
+  <!--<link rel="stylesheet" href="https://rawgit.com/pixelsign/html5-device-mockups/master/dist/device-mockups.min.css">-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <!--<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>-->
+
+  <link rel="stylesheet" href="../static/css/bootstrap.min.css">
+  <script src="../static/js/holder.js"></script>
+  <script src="../static/js/cookie.js"></script>
+  <script src="../static/js/jquery-3.4.1.min.js"></script>
+
+  <link rel="stylesheet" href="../static/css/presbot-app.css">
+
+  <link rel="stylesheet" href="../static/css/hover-min.css">
+
+  <!-- cropper js : https://github.com/fengyuanchen/jquery-cropper -->
+  <!-- https://simpleisbetterthancomplex.com/tutorial/2017/03/02/how-to-crop-images-in-a-django-application.html -->
+  <link  rel="stylesheet" href="../static/css/cropper.min.css">
+
+  <!-- TODO: markdown support -->
+
+  <!-- lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+
+
+  <!-- Argon CSS -->
+
+  <link type="text/css" href="../static/css/argon-design.css" rel="stylesheet">
+
+  <!-- toaster js - https://codeseven.github.io/toastr/ -->
+
+  <link rel="stylesheet" href="../static/css/toastr.min.css"/>
+
+
+<!--</head>-->
+
+    <body class="index-page" style="font-family: 'Lato', sans-serif;">
+
+<!--          style="background-image: url(/static/assets/img/bg-constellations.svg);-->
+<!--								background-size: cover;background-position: center; background-repeat: no-repeat; ">-->
+
+
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+
+
+
+<!--           style="-->
+<!--                        background-image: url(/static/assets/img/reset.svg);-->
+<!--                        background-size: cover;-->
+<!--                        background-position: center;-->
+<!--                        background-repeat: no-repeat;-->
+<!--                ">-->
+
+        
+
+<!-- included in base -->
+
+<!--<header class="header-global">-->
+
+
+  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-transparent navbar-secondary  headroom headroom--not-bottom headroom--pinned headroom--top">
+      <div class="container">
+
+        <a class="navbar-brand mr-lg-5 hvr-ripple-in" href="../index.html" style="font-size: 1.3rem;font-weight: 900;" >
+<!--          <img src="/static/assets/img/presbot.svg" class="">-->
+          <u>P</u>RESBOT
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbar_global">
+
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-brand">
+                <a href="../index.html" class="text-default" style="font-weight: 300;">
+                  <img src="../static/assets/img/presbot.svg" class="mr-2">PRESBOT
+                </a>
+              </div>
+              <div class="col-6 collapse-close">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div> <!-- brand top left -->
+
+          <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+
+              <li class="nav-item hvr-underline-reveal">
+                <a href="../index.html" class="nav-link" role="button">
+                  <span class="nav-link-inner--text">
+                    <b>HOME</b>
+                  </span>
+                </a>
+              </li><!-- home -->
+
+              <li class="nav-item hvr-underline-reveal">
+                <a href="../showcase/index.html" class="nav-link" role="button">
+                  <span class="nav-link-inner--text">
+                    <b><u>C</u>OMMUNITY</b>
+                  </span>
+                </a>
+              </li><!-- community -->
+
+
+
+            
+
+                      <li class="nav-item hvr-underline-reveal " style="">
+                        <a href="index.html" class="nav-link" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>SIGNUP</b>
+                          </span>
+                        </a>
+                      </li> <!-- Signup -->
+
+                      <li class="nav-item hvr-underline-reveal " style="">
+                        <a href="../login/index.html" class="nav-link" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>LOGIN</b>
+                          </span>
+                        </a>
+                      </li><!-- Login -->
+
+            
+
+                      <li class="nav-item dropdown">
+                        <a href="" class="nav-link" data-toggle="dropdown" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>EXPLORE</b>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-xl">
+
+
+                          <div class="dropdown-menu-inner">
+
+
+                            <a href="../index-.html#whatIsPresbot" class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">What is Presbot?</h6>
+                                <p class="description d-none d-md-inline-block mb-0">Learn more about the Presbot platform.</p>
+                              </div>
+                            </a>
+                            <a href="../index-.html#whyPresbot" class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">Why Presbot?</h6>
+                                <p class="description d-none d-md-inline-block mb-0">Learn more about practical applications of Presbot.</p>
+                              </div>
+                            </a>
+
+                            <a href="../showcase/index.html"  class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">
+                                  Presbot Community
+                                </h6>
+                                <p class="description d-none d-md-inline-block mb-0">Check out our featured Presbots</p>
+                              </div>
+                            </a>
+
+
+                          </div>
+
+                          
+
+                          <div class="dropdown-menu-footer">
+
+                            <a class="dropdown-item text-default mb-1" href="../login/index.html">
+                              <i class="fas fa-key"></i>
+                              <b>LOGIN</b>
+                            </a>
+
+                            <a class="dropdown-item text-default" href="index.html">
+                              <i class="fas fa-user-circle"></i>
+                              <b>SIGN UP</b>
+                            </a>
+
+                          </div>
+
+                          
+
+                        </div>
+                      </li> <!-- explore -->
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+<!--</header>-->
+
+
+           
+
+
+        <div class="wrapper">
+
+            <div class="section section-shaped">
+
+                <div class="container">
+
+
+
+                    <div class="row">
+                        <div class="col-md-8 col-lg-6 mx-auto">
+
+
+                          <div class="card mt-5 mb-5 mx-auto text-dark border shadow-sm">
+
+                              <div class="card-header border-0">
+
+
+                               <span>
+        <!--                            <img src="/static/assets/img/presbot.svg" class="img-fluid" style="width:10%;height:10%;">-->
+                                    <span class="text-default" style="font-size: 1.5rem;">Beep Bop! Sign up for a free account</span>
+                                </span>
+
+<!--                                <div class="mb-5"></div>-->
+                                    <!-- TODO: uncomment once social auth works -->
+
+                                <div class="text-center">
+                                  <a href="https://presbot.com/oauth/login/linkedin-oauth2/">
+                                        <button type="button" class="btn-icon btn btn-linkedin mb-1"  style="display:none;">
+                                          <span class="btn-inner--icon mr-1"><i class="fab fa-linkedin"></i></span>
+                                          <span class="btn-inner--text">LinkedIn</span>
+                                        </button>
+                                  </a>
+                                  <a href="../oauth/login/twitter/index.html">
+                                        <button type="button" class="btn-icon btn btn-twitter mb-1"  style="display:none;">
+                                          <span class="btn-inner--icon mr-1"><i class="fab fa-twitter"></i></span>
+                                          <span class="btn-inner--text">Twitter</span>
+                                        </button>
+                                  </a>
+
+                                  <a href="https://presbot.com/oauth/login/github/">
+                                        <button type="button" class="btn-github btn-icon btn mb-1"  style="display:none;">
+                                          <span class="btn-inner--icon mr-1"><i class="fab fa-github"></i></span>
+                                          <span class="btn-inner--text">Github</span>
+                                        </button>
+                                  </a>
+                                </div>
+
+
+                              </div>
+
+                              <div class="card-body text-left border-0">
+                                <form method="post" novalidate>
+                                  <input type="hidden" name="csrfmiddlewaretoken" value="9HKqD8l3n1rEtvaGXznPtaS8qsRNk5i1cOfZnLHdkC2zNGK3djvPHeJ6Ftr0AqhE">
+                                  
+
+
+
+
+
+
+
+  <div class="form-group">
+    <label for="id_username">Username:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="text" name="username" maxlength="150" autofocus class="form-control" required id="id_username">
+    
+
+    
+      <small class="form-text text-muted">Required. 150 characters or fewer. Letters, digits and @/./+/-/_ only.</small>
+    
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="id_email">Email:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="email" name="email" maxlength="254" class="form-control" required id="id_email">
+    
+
+    
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="id_first_name">First name:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="text" name="first_name" maxlength="50" class="form-control" required id="id_first_name">
+    
+
+    
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="id_last_name">Last name:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="text" name="last_name" maxlength="60" class="form-control" required id="id_last_name">
+    
+
+    
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="id_password1">Password:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="password" name="password1" class="form-control" required id="id_password1">
+    
+
+    
+      <small class="form-text text-muted"><ul><li>Your password can&#39;t be too similar to your other personal information.</li><li>Your password must contain at least 8 characters.</li><li>Your password can&#39;t be a commonly used password.</li><li>Your password can&#39;t be entirely numeric.</li></ul></small>
+    
+  </div>
+
+
+
+  <div class="form-group">
+    <label for="id_password2">Password confirmation:</label>
+
+    
+<!--        <span class="required text-danger lead"><sup><small><i class="fa fa-star"></i></small></sup></span>-->
+    <span class="required text-danger lead">*</span>
+    
+    </label>
+
+    
+      <input type="password" name="password2" class="form-control" required id="id_password2">
+    
+
+    
+      <small class="form-text text-muted">Enter the same password as before, for verification.</small>
+    
+  </div>
+
+
+                                  <button type="submit" class="btn btn-facebook">Create My Account</button>
+                                </form>
+                              </div>
+
+                              <div class="card-footer border-0">
+                                <div class="text-center text-muted">Already have an account? <a href="../login/index.html">Login</a>
+                                </div>
+                              </div>
+
+
+                          </div> <!-- end card -->
+
+
+                        </div><!-- end col-->
+                    </div> <!-- end row -->
+
+
+
+
+                </div> <!-- end container -->
+
+            </div> <!-- end section -->
+        </div>  <!-- end wrapper -->
+
+
+
+        
+<!-- included in pub_base -->
+
+
+
+    <div class="section-footer">
+      <div class="container-fluid">
+        <div id="footer-areas">
+          <!--     *********    BIG FOOTER     *********      -->
+          <footer class="footer footer-big">
+            <div class="container">
+              <div class="content">
+                <div class="row">
+                  <div class="col-md-2 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">About</h4>
+                      <ul>
+                        <li class="nav-item">
+                          <a href="../privacy/index.html">
+                            Privacy
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="../terms/index.html">
+                            T&Cs
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="../index-.html#whyPresbot">
+                            About
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="mailto:hello@presbot.com">
+                            Contact
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Why Presbot?</h4>
+                      <ul>
+                        <li>
+                          <a href="../index-.html#whyPresbot">
+                            Platform
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Know Your Presbot
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Creating Your Presbot
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Social Feed</h4>
+                      <div class="social-feed">
+                        <div class="feed-line">
+                          <i class="fab fa-linkedin"></i>
+                          <p>The power of chatbots</p>
+                        </div>
+                        <div class="feed-line">
+                          <i class="fab fa-twitter"></i>
+                          <p>Personal Chatbots - A Primer</p>
+                        </div>
+                        <div class="feed-line">
+                          <i class="fab fa-facebook-square"></i>
+                          <p>How is Presbot changing the face of personal bots</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Metrics</h4>
+                      <h5>  <small class="text-muted">Presbots</small></h5>
+<!--                      <h5>1.423.183 <small class="text-muted">Presbots</small></h5>-->
+                      <h4 class="mt-4 mb-4">Connect With Us</h4>
+                      <ul class="social-buttons">
+<!--                        <li>-->
+<!--                          <a class="mr-2" href="https://presbot.slack.com">-->
+<!--                            <button type="button" class="btn-icon-only btn btn-slack">-->
+<!--                              <span class="btn-inner&#45;&#45;icon"><i class="fab fa-slack"></i></span>-->
+<!--                            </button>-->
+<!--                          </a>-->
+<!--                        </li>-->
+                        <li>
+                          <a class="" href="https://linkedin.com/company/presbot-app">
+                            <button type="button" class="btn-icon-only btn btn-linkedin">
+                              <span class="btn-inner--icon"><i class="fab fa-linkedin"></i></span>
+                            </button>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="" href="https://twitter.com/mohapsat">
+                            <button type="button" class="btn-icon-only btn btn-twitter">
+                              <span class="btn-inner--icon"><i class="fab fa-twitter"></i></span>
+                            </button>
+                          </a>
+                        </li>
+
+<!--                        <li>-->
+<!--                          <button type="button" class="btn-icon-only btn btn-facebook">-->
+<!--                            <span class="btn-inner&#45;&#45;icon"><i class="fab fa-facebook"></i></span>-->
+<!--                          </button>-->
+<!--                        </li>-->
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="copyright d-flex flex-row-reverse">
+                Copyright © <script>
+                  document.write(new Date().getFullYear())
+                </script> Presbot. All Rights Reserved.
+
+                <span class="text-left">
+
+                  Made with <i class="fas fa-heart text-danger"></i> by SATYA @
+
+                  <a href="https://www.linkedin.com/in/satyamadhav/" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-linkedin mr-1"></i>Linkedin
+                  </a>
+
+                  <a href="https://github.com/mohapsat" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-github mr-1"></i>Github
+                  </a>
+
+                  <a href="https://twitter.com/mohapsat" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-twitter mr-1"></i>Twitter
+                  </a>
+
+                &nbsp;|&nbsp;
+
+                </span>
+
+              </div>
+            </div>
+          </footer>
+          <!--     *********   END BIG FOOTER     *********      -->
+        </div>
+      </div>
+    </div>
+
+        <!-- Core -->
+        <script src="../static/js/jquery-3.4.1.min.js"></script>
+        <script src="../static/js/popper.min.js"></script>
+        <script src="../static/js/bootstrap.min.js"></script>
+        <script src="../static/js/headroom.min.js"></script>
+
+        <!--Typing animation : https://github.com/mattboldt/typed.js/ -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+        <!-- Toastr JS -> https://codeseven.github.io/toastr/ -->
+<!--        <script src="/static/js/toastr.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+        <!-- Argon JS -->
+        <script src="../static/js/argon-dashboard.js"></script>
+
+        <script nomodule defer src="../static/js/cookie.js"></script>
+
+        <!-- Presbot confetti -->
+        <!-- in bot interaction custom js -->
+
+        <!-- TODO: markdown support -->
+
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBJFJK6RLH"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FBJFJK6RLH');
+        </script>
+
+
+
+          <!-- toastr notifications -->
+          <script>
+
+            $(document).ready(function() {
+
+                        
+
+
+            });
+
+          </script>
+
+
+         
+            <!-- any custom page specific js goes here -->
+
+         
+
+    </body>
+
+</html>

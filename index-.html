@@ -1,0 +1,854 @@
+
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+    
+<!-- included in pub_base -->
+
+<!--<head>-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Presbot is a community of chatbots, an interactive version of linkedin. Presbot provides the simplest and fastest way to create your personal and professional chatbot. Presbot employs rule based and machine learning algorithms and learns from each interaction with your end users. Try it out today. It's free forever!">
+  <meta name="keywords" content="chatbot,resume bot,chatbot examples,chatbots,simple chatbot,resume bot,personal chatbot,chatbot cv,chatbot resume,chatbot profile,personal chatbot, professional chatbot">
+  <meta name="author" content="Satya Mohapatra [https://www.linkedin.com/in/satyamadhav/]">
+
+  <!--bing webmaster-->
+
+
+  <title>Presbot - World's Largest Chatbot Community</title>
+
+  <!-- Favicon -->
+  <link href="static/assets/img/presbot.png" rel="icon">
+
+  <!-- Fonts -->
+
+  <!-- main home text -->
+  <link href="https://fonts.googleapis.com/css?family=Averia+Serif+Libre&amp;display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <script src="static/js/fa-72a9901af9.js"></script>
+  <!--Bootstrap Tour-->
+
+  <!--<link rel="stylesheet" href="https://rawgit.com/pixelsign/html5-device-mockups/master/dist/device-mockups.min.css">-->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+
+
+  <!--<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>-->
+
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <script src="static/js/holder.js"></script>
+  <script src="static/js/cookie.js"></script>
+  <script src="static/js/jquery-3.4.1.min.js"></script>
+
+  <link rel="stylesheet" href="static/css/presbot-app.css">
+
+  <link rel="stylesheet" href="static/css/hover-min.css">
+
+  <!-- cropper js : https://github.com/fengyuanchen/jquery-cropper -->
+  <!-- https://simpleisbetterthancomplex.com/tutorial/2017/03/02/how-to-crop-images-in-a-django-application.html -->
+  <link  rel="stylesheet" href="static/css/cropper.min.css">
+
+  <!-- TODO: markdown support -->
+
+  <!-- lato -->
+  <link href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap" rel="stylesheet">
+
+
+  <!-- Argon CSS -->
+
+  <link type="text/css" href="static/css/argon-design.css" rel="stylesheet">
+
+  <!-- toaster js - https://codeseven.github.io/toastr/ -->
+
+  <link rel="stylesheet" href="static/css/toastr.min.css"/>
+
+
+<!--</head>-->
+
+    <body class="index-page" style="font-family: 'Lato', sans-serif;">
+
+<!--          style="background-image: url(/static/assets/img/bg-constellations.svg);-->
+<!--								background-size: cover;background-position: center; background-repeat: no-repeat; ">-->
+
+
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+<!--                        <div class="particle" style="z-index:999;"></div>-->
+
+
+
+<!--           style="-->
+<!--                        background-image: url(/static/assets/img/reset.svg);-->
+<!--                        background-size: cover;-->
+<!--                        background-position: center;-->
+<!--                        background-repeat: no-repeat;-->
+<!--                ">-->
+
+        
+
+<!-- included in base -->
+
+<!--<header class="header-global">-->
+
+
+  <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg bg-transparent navbar-secondary  headroom headroom--not-bottom headroom--pinned headroom--top">
+      <div class="container">
+
+        <a class="navbar-brand mr-lg-5 hvr-ripple-in" href="index.html" style="font-size: 1.3rem;font-weight: 900;" >
+<!--          <img src="/static/assets/img/presbot.svg" class="">-->
+          <u>P</u>RESBOT
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbar_global">
+
+          <div class="navbar-collapse-header">
+            <div class="row">
+              <div class="col-6 collapse-brand">
+                <a href="index.html" class="text-default" style="font-weight: 300;">
+                  <img src="static/assets/img/presbot.svg" class="mr-2">PRESBOT
+                </a>
+              </div>
+              <div class="col-6 collapse-close">
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar_global" aria-controls="navbar_global" aria-expanded="false" aria-label="Toggle navigation">
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+          </div> <!-- brand top left -->
+
+          <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+
+              <li class="nav-item hvr-underline-reveal">
+                <a href="index.html" class="nav-link" role="button">
+                  <span class="nav-link-inner--text">
+                    <b>HOME</b>
+                  </span>
+                </a>
+              </li><!-- home -->
+
+              <li class="nav-item hvr-underline-reveal">
+                <a href="showcase/index.html" class="nav-link" role="button">
+                  <span class="nav-link-inner--text">
+                    <b><u>C</u>OMMUNITY</b>
+                  </span>
+                </a>
+              </li><!-- community -->
+
+
+
+            
+
+                      <li class="nav-item hvr-underline-reveal " style="">
+                        <a href="signup/index.html" class="nav-link" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>SIGNUP</b>
+                          </span>
+                        </a>
+                      </li> <!-- Signup -->
+
+                      <li class="nav-item hvr-underline-reveal " style="">
+                        <a href="login/index.html" class="nav-link" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>LOGIN</b>
+                          </span>
+                        </a>
+                      </li><!-- Login -->
+
+            
+
+                      <li class="nav-item dropdown">
+                        <a href="" class="nav-link" data-toggle="dropdown" role="button">
+                          <span class="nav-link-inner--text">
+                            <b>EXPLORE</b>
+                          </span>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-xl">
+
+
+                          <div class="dropdown-menu-inner">
+
+
+                            <a href="#whatIsPresbot" class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">What is Presbot?</h6>
+                                <p class="description d-none d-md-inline-block mb-0">Learn more about the Presbot platform.</p>
+                              </div>
+                            </a>
+                            <a href="#whyPresbot" class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">Why Presbot?</h6>
+                                <p class="description d-none d-md-inline-block mb-0">Learn more about practical applications of Presbot.</p>
+                              </div>
+                            </a>
+
+                            <a href="showcase/index.html"  class="media d-flex align-items-center">
+                              <div class="media-body ml-3">
+                                <h6 class="heading text-primary mb-md-1">
+                                  Presbot Community
+                                </h6>
+                                <p class="description d-none d-md-inline-block mb-0">Check out our featured Presbots</p>
+                              </div>
+                            </a>
+
+
+                          </div>
+
+                          
+
+                          <div class="dropdown-menu-footer">
+
+                            <a class="dropdown-item text-default mb-1" href="login/index.html">
+                              <i class="fas fa-key"></i>
+                              <b>LOGIN</b>
+                            </a>
+
+                            <a class="dropdown-item text-default" href="signup/index.html">
+                              <i class="fas fa-user-circle"></i>
+                              <b>SIGN UP</b>
+                            </a>
+
+                          </div>
+
+                          
+
+                        </div>
+                      </li> <!-- explore -->
+
+          </ul>
+        </div>
+      </div>
+  </nav>
+
+
+<!--</header>-->
+
+
+           
+
+        <div class="wrapper">
+
+            <div class="section-xl section-hero section-shaped" style="padding-bottom: 4.5rem;">
+
+                <div class="container shape-container d-flex align-items-center mt-5">
+
+                    <div class="col px-0">
+
+                        <div class="row align-items-center justify-content-center">
+
+                            <div class="col-lg-6 text-center">
+                                    <!-- transform-perspective-right  -->
+
+                                <img src="static/assets/img/presbot.svg" class="img-fluid rounded-circle vert-move" style="width:14%;height:14%;">
+                                <div class="bot-shadow"></div>
+<!--                                <span class="badge badge-secondary">Pro</span>-->
+
+                                <p>
+<!--                                    style="font-family: 'Pacifico', cursive;"-->
+                                    <div class="mb-2 text-default" style="font-size:1.9em;">
+<!--                                        <kbd class="bg-gradient-primary">PRESBOT</kbd>-->
+                                        No-Code No-Workflow Personal Chatbot Platform, Free!
+<!--                                        Create your personal chatbot with zero coding skills. For free!-->
+                                    </div>
+                                    <p class="text-muted">
+                                        <span>Every Chatbot has a Story</span> <!-- presbot tagline -->
+                                    </p>
+                                </p>
+
+                                <div class="mt-3 d-none d-sm-block d-sm-none d-md-block">
+                                    <!-- hide typed js on small and xs screens -->
+                                    <p>
+                                        <span class="text-capitalize presbot-pitch h5 text-default">
+                                            <!-- typed text presbot-pitch -->
+                                        </span>
+                                    </p>
+                                </div>
+
+                            </div> <!-- end col-lg-6 -->
+
+                        </div> <!-- end row -->
+
+<!--                        <div class="row text-center py-lg mt-5 d-sm-block d-none">-->
+<!--                            <img src="/static/assets/img/entrepreneur.jpg" class="mr-5" style="width: 150px; top: 2px; position: relative">-->
+<!--                            <img src="/static/assets/img/product-hunt.jpg" class="ml-5 mr-5" style="width: 145px; height: 25px;">-->
+<!--                            <img src="/static/assets/img/forbes.jpg" class="ml-5 mr-5" style="width: 130px; height: 25px;">-->
+<!--                            <img src="/static/assets/img/creativebloq.jpg" class="ml-5 mr-5" style="width: 145px; height: 25px;">-->
+<!--                            <img src="/static/assets/img/awwwards.jpg"  class="ml-5 mr-5" style="width: 120px; height: 25px;">-->
+<!--                        </div>-->
+
+                    </div> <!-- end col -->
+
+                </div>  <!-- end container -->
+
+            </div> <!-- end section 1 -->
+
+        <!-- begin features cards -->
+
+
+            <div id="whatIsPresbot" class="features-2">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 col-md-8 mr-auto text-center">
+                        <div class="mb-5">
+
+<!--                                <img src="/static/assets/img/presbot_logo.svg" class="img-fluid" style="width:20%;height:20%">-->
+
+<!--                            <h3 class="text-uppercase text-muted">What is Presbot?</h3>-->
+
+                            <p class="text-default" style="font-size:1.5em;">
+<!--                                Presbot is the <span class="text-primary">Easiest Way</span> to Create your Personal or Professional Chatbot, for <span class="text-primary">FREE!</span>-->
+                                Create a <b><u>free</u></b> personal chatbot in a breeze, and <b><u>share it's link</u></b> with your friends, colleagues and resume!
+
+                            </p>
+<!--                                <p>No need to master any technical concepts. Just answer predefined questions or define-->
+<!--                                your own Q & A and train your bot.</p>-->
+<!--                                <p>An untrained instance of Presbot starts off with no knowledge of how to communicate. Each time a user enters a statement, the library saves the text that they entered and the text that the statement was in response to. As Presbot receives more input the number of responses that it can reply and the accuracy of each response in relation to the input statement increase.</p>-->
+<!--                                <p>The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then chooses a response from the selection of known responses to that statement.</p>-->
+
+                            <ul class="list-unstyled mt-5">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="mr-3 badge badge-warning badge-pill">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0 text-default text-capitalize">100% free to use</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="mr-3 badge badge-warning badge-pill">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0 text-default text-capitalize">Powered by Machine Learning</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <div>
+                                            <div class="mr-3 badge badge-warning badge-pill">
+                                                <i class="fas fa-check"></i>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <h6 class="mb-0 text-default text-capitalize">Make your resume stand out</h6>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="py-2">
+                                    <span class="d-flex">
+                                        <div class="mr-3 badge badge-warning badge-pill">
+                                            <i class="fas fa-check"></i>
+                                        </div>
+                                        <h6 class="mb-0 text-default text-capitalize">Language independent design</h6>
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-md-12 pl-md-0 transform-perspective-right">
+
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-gradient-primary shadow card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i class="fas fa-comments text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-white">Chatbot Yourself</h5>
+                                    <p class="description">Make your chatbot profile today, all it takes is a couple minutes. Presbot can be your professional agent, a community bot, a side-project bot or even any general purpose agent. Endless possibilities.</p>
+                                </div>
+                            </div>
+
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-white info-raised shadow-sm card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i class="fas fa-laptop-code text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-default">Machine Learning</h5>
+                                    <p class="description text-default">Machine-learning nature of Presbot allows an agent instance to improve it’s own knowledge of possible responses as it interacts with humans and other sources of informative data.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-default shadow card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i class="fas fa-comment-alt text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-white">Never miss a contact</h5>
+                                    <p class="description">Presbot supports multiple concurrent chat sessions, this will ensure no contact is ever missed or dropped.</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-default shadow card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i class="far fa-file-pdf  text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-white">Make your resume stand out</h5>
+                                    <p class="description">Presbot's an innovative way for recruiters, employers or stargazers to get in touch with you.<br><br>
+                                    <i class="fa fa-file-pdf"></i> <u>Add your unique chatbot link to your resume.</u></p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-white info-raised shadow card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle">
+                                        <i class="fas fa-headset text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-default">Presbot Community</h5>
+                                    <p class="description text-default">Presbot is a social network of chatbots! You can search <i class="fas fa-search"></i> connect <i class="fas fa-plug"></i> and
+                                    like <i class="fas fa-heart text-danger"></i> with other Presbots. You can also view your connections on your public profile. </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4">
+                                <div class="info text-left bg-gradient-primary shadow-sm card-lift--hover">
+                                    <div class="icon icon-shape bg-gradient-white shadow rounded-circle text-primary">
+                                        <i class="fas fa-user-check text-default"></i>
+                                    </div>
+                                    <h5 class="info-title text-white">Make it yours</h5>
+                                    <p class="description">In addition to responses, you can personalize the look and feel of your Presbot public page.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end features cards -->
+
+        <!-- begin FAQ Accordion -->
+
+            <div class="cd-section" id="accordion">
+                <!--     *********     ACCORDION 1      *********      -->
+                <div id="whyPresbot" class="accordion-1">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 mx-auto text-center">
+<!--                                <h2 class="text-muted text-uppercase mb-3 mt-5">Know your Presbot</h2>-->
+                                <h3 class="h3 text-default text-capitalize mt-5">Know your Presbot</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 ml-auto">
+                                <div class="accordion" id="accordionExample" style="margin-top: 40px;">
+                                    <div class="card border shadow-sm">
+                                        <div class="card-header" id="headingOne">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link w-100 text-blue text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                  <i class="fas fa-angle-down pt-1 mr-2"></i>
+                                                    How does Presbot Work?
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                            <div class="card-body opacity-8 text-default">
+                                                <p>Presbot is a platform to create your personal & professional chatbot easily and instantly without writing a line of code, defining and designing conditional logic or workflows.</p>
+                                                <p>An untrained instance of Presbot starts off with no knowledge of how to communicate. Each time a user enters a statement, the library saves the text that they entered and the text that the statement was in response to. As Presbot receives more input the number of responses that it can reply and the accuracy of each response in relation to the input statement increase.</p>
+                                                <p>The program selects the closest matching response by searching for the closest matching known statement that matches the input, it then chooses a response from the selection of known responses to that statement.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card border shadow-sm">
+                                        <div class="card-header" id="headingTwo">
+                                            <h5 class="mb-0">
+                                                <button class="btn btn-link w-100 text-blue text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  <i class="fas fa-angle-down pt-1 mr-2"></i>
+                                                    What are it's applications?
+                                                </button>
+                                            </h5>
+                                        </div>
+                                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                            <div class="card-body opacity-8  text-default">
+                                                <p>
+                                                    Presbots are designed to be your personal and professional resume or job agents. They can interact with multiple
+                                                    users simultaneously on your behalf. They evolve with time. Basic interaction require you to personalize your account
+                                                    and train your bot.
+                                                </p>
+
+                                                <p>
+                                                    For most effective use, <u><b>add your unique presbot url to your cv/ resume and share it</b></u> on your <i class="fab fa-linkedin"></i> linkedin, <i class="fab fa-facebook"></i> facebook or <i class="fab fa-twitter"></i> twitter profiles.
+                                                </p>
+
+                                                <p>
+                                                    Presbots can act as a resume bot, a bot that represents a side project, a community or a group. It can act as any general purpose agent as long as its application does
+                                                    not violate our <a href="terms/index.html" target="_blank">terms and conditions</a>.
+                                                </p>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!-- end FAQ collapse -->
+
+        <!-- begin section features-->
+
+            <div class="section features-7 bg-0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center mx-auto">
+                        <h3 class="h3 text-default text-capitalize">Creating Your Presbot is Easy</h3>
+                        <p class="lead text-muted text-capitalize">Presbots work for you when you're doing what you love to do.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center mt-5">
+                    <div class="col-lg-12">
+                        <div class="row row-grid">
+                            <div class="col-lg-4">
+                                <div class="card card-lift--hover shadow-sm border">
+                                    <div class="card-body py-5">
+                                        <div class="icon icon-shape icon-shape-light rounded-circle mb-4">
+                                            <i class="fas fa-address-book  text-default"></i>
+                                        </div>
+                                        <div class="text-blue text-uppercase"><b>STEP 1.</b> Create Presbot Profile</div>
+                                        <p class="description mt-3">
+                                            Start by personalizing your Presbot and make it your own.
+                                        </p>
+<!--                                        <a href="#" class="btn btn-gradient-primary mt-4">Learn more</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-lift--hover shadow-sm border">
+                                    <div class="card-body py-5">
+                                        <div class="icon icon-shape icon-shape-light rounded-circle mb-4">
+                                            <i class="fas fa-dumbbell  text-default"></i>
+                                        </div>
+                                        <div class="text-blue text-uppercase"><b>STEP 2.</b> Train Your Presbot</div>
+                                        <p class="description mt-3">Answer a few questions and provide your own Q&A to train your Presbot.</p>
+<!--                                        <a href="#" class="btn btn-success mt-4">Learn more</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="card card-lift--hover shadow-sm border">
+                                    <div class="card-body py-5">
+                                        <div class="icon icon-shape icon-shape-light rounded-circle mb-4">
+                                            <i class="fas fa-flag-checkered text-default"></i>
+                                        </div>
+                                        <div class="text-blue text-uppercase"><b>STEP 3.</b> Publish and Share</div>
+                                        <p class="description mt-3">Add your Presbot link to your resume and professional networks.</p>
+<!--                                        <a href="#" class="btn btn-warning mt-4">Learn more</a>-->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- end section features-->
+
+
+
+        </div> <!-- end wrapper -->
+
+
+
+        <script>
+
+            $(document).ready(function() {
+
+                        /* typed js */
+
+                        var options = {
+                            stringsElement: '#typed-strings',
+                            strings: [
+                                    "", /* being ignored */
+                                    "Presbot is a community of chatbots",
+                                    'every chatbot has a story',
+                                    'behind every successful human is a chatbot',
+                                    'in bots we trust',
+                                    "we've seen the future and its chatbot shaped",
+                                    "It's fast, it's furious, it's a chatbot!",
+                                    "The most interesting chatbots in the world",
+                                    "I don't always chatbot, but when i do..^1000 `i presbot`",
+                                    'your personal chatbot',
+                                    'personal chatbots R Us',
+                                    'We do chatbots right',
+                                    "easiest way to create a chatbot",
+                                    'my chatbot and me',
+                                    "Presbot works for you 24X7",
+                                    "Contact us at hello@presbot.com",
+                                    "free to use",
+                                    "Create your personal chatbot",
+                                    ],
+                            typeSpeed: 60, backDelay: 4500, loop: 1
+                        }
+
+                        var typed = new Typed(".presbot-pitch", options);
+
+            });
+          </script>
+
+
+  
+
+        
+<!-- included in pub_base -->
+
+
+
+    <div class="section-footer">
+      <div class="container-fluid">
+        <div id="footer-areas">
+          <!--     *********    BIG FOOTER     *********      -->
+          <footer class="footer footer-big">
+            <div class="container">
+              <div class="content">
+                <div class="row">
+                  <div class="col-md-2 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">About</h4>
+                      <ul>
+                        <li class="nav-item">
+                          <a href="privacy/index.html">
+                            Privacy
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="terms/index.html">
+                            T&Cs
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="#whyPresbot">
+                            About
+                          </a>
+                        </li>
+                        <li class="nav-item">
+                          <a href="mailto:hello@presbot.com">
+                            Contact
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-2 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Why Presbot?</h4>
+                      <ul>
+                        <li>
+                          <a href="#whyPresbot">
+                            Platform
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Know Your Presbot
+                          </a>
+                        </li>
+                        <li>
+                          <a href="#">
+                            Creating Your Presbot
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Social Feed</h4>
+                      <div class="social-feed">
+                        <div class="feed-line">
+                          <i class="fab fa-linkedin"></i>
+                          <p>The power of chatbots</p>
+                        </div>
+                        <div class="feed-line">
+                          <i class="fab fa-twitter"></i>
+                          <p>Personal Chatbots - A Primer</p>
+                        </div>
+                        <div class="feed-line">
+                          <i class="fab fa-facebook-square"></i>
+                          <p>How is Presbot changing the face of personal bots</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-6">
+                    <div class="column">
+                      <h4 class="mt-3">Metrics</h4>
+                      <h5> 65 <small class="text-muted">Presbots</small></h5>
+<!--                      <h5>1.423.183 <small class="text-muted">Presbots</small></h5>-->
+                      <h4 class="mt-4 mb-4">Connect With Us</h4>
+                      <ul class="social-buttons">
+<!--                        <li>-->
+<!--                          <a class="mr-2" href="https://presbot.slack.com">-->
+<!--                            <button type="button" class="btn-icon-only btn btn-slack">-->
+<!--                              <span class="btn-inner&#45;&#45;icon"><i class="fab fa-slack"></i></span>-->
+<!--                            </button>-->
+<!--                          </a>-->
+<!--                        </li>-->
+                        <li>
+                          <a class="" href="https://linkedin.com/company/presbot-app">
+                            <button type="button" class="btn-icon-only btn btn-linkedin">
+                              <span class="btn-inner--icon"><i class="fab fa-linkedin"></i></span>
+                            </button>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="" href="https://twitter.com/mohapsat">
+                            <button type="button" class="btn-icon-only btn btn-twitter">
+                              <span class="btn-inner--icon"><i class="fab fa-twitter"></i></span>
+                            </button>
+                          </a>
+                        </li>
+
+<!--                        <li>-->
+<!--                          <button type="button" class="btn-icon-only btn btn-facebook">-->
+<!--                            <span class="btn-inner&#45;&#45;icon"><i class="fab fa-facebook"></i></span>-->
+<!--                          </button>-->
+<!--                        </li>-->
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <hr>
+              <div class="copyright d-flex flex-row-reverse">
+                Copyright © <script>
+                  document.write(new Date().getFullYear())
+                </script> Presbot. All Rights Reserved.
+
+                <span class="text-left">
+
+                  Made with <i class="fas fa-heart text-danger"></i> by SATYA @
+
+                  <a href="https://www.linkedin.com/in/satyamadhav/" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-linkedin mr-1"></i>Linkedin
+                  </a>
+
+                  <a href="https://github.com/mohapsat" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-github mr-1"></i>Github
+                  </a>
+
+                  <a href="https://twitter.com/mohapsat" target="_blank" class="badge badge-sm badge-default">
+                    <i class="fab fa-twitter mr-1"></i>Twitter
+                  </a>
+
+                &nbsp;|&nbsp;
+
+                </span>
+
+              </div>
+            </div>
+          </footer>
+          <!--     *********   END BIG FOOTER     *********      -->
+        </div>
+      </div>
+    </div>
+
+        <!-- Core -->
+        <script src="static/js/jquery-3.4.1.min.js"></script>
+        <script src="static/js/popper.min.js"></script>
+        <script src="static/js/bootstrap.min.js"></script>
+        <script src="static/js/headroom.min.js"></script>
+
+        <!--Typing animation : https://github.com/mattboldt/typed.js/ -->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+        <!-- Toastr JS -> https://codeseven.github.io/toastr/ -->
+<!--        <script src="/static/js/toastr.min.js"></script>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+        <!-- Argon JS -->
+        <script src="static/js/argon-dashboard.js"></script>
+
+        <script nomodule defer src="static/js/cookie.js"></script>
+
+        <!-- Presbot confetti -->
+        <!-- in bot interaction custom js -->
+
+        <!-- TODO: markdown support -->
+
+
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-FBJFJK6RLH"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-FBJFJK6RLH');
+        </script>
+
+
+
+          <!-- toastr notifications -->
+          <script>
+
+            $(document).ready(function() {
+
+                        
+
+
+            });
+
+          </script>
+
+
+         
+    <!-- any custom page specific js goes here -->
+    <script>
+        $('.scroll_to').click(function(e){
+            var jump = $(this).attr('href');
+            var new_position = $(jump).offset();
+            $('html, body').stop().animate({ scrollTop: new_position.top }, 500);
+            e.preventDefault();
+        });
+    </script>
+    
+
+    </body>
+
+</html>

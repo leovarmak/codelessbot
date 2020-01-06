@@ -1,0 +1,78 @@
+<svg width="487px" height="590px" viewBox="0 0 487 490" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Presbot</title>
+    <desc>C</desc>
+    <defs></defs>
+
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+
+        <g id="Desktop-Copy" transform="translate(-270.000000, -140.000000)">
+
+            <g id="robot" transform="translate(269.000000, 190.000000)">
+
+<!--                <g id="ear-antenna-left" transform="translate(0.000000, 110.000000)">-->
+<!--                    <rect id="Rectangle-6" fill="#FD6256" x="11" y="6" width="60" height="9"></rect>-->
+<!--                    <circle id="Oval" fill="#FD4F42" cx="10.5" cy="10.5" r="10.5"></circle>-->
+<!--                </g>-->
+
+
+<!--                <g id="ear-antenna-left"-->
+<!--                   transform="translate(452.950300, 110.008488) rotate(-200.000000) translate(-452.950300, -110.008488) translate(417.450300, 99.508488)">-->
+<!--                    <rect id="Rectangle-6" fill="#FD6256" x="11" y="6" width="60" height="9"></rect>-->
+<!--                    <circle id="Oval" fill="#FD4F42" cx="10.5" cy="10.5" r="10.5"></circle>-->
+<!--                </g>-->
+
+
+
+<!--                <rect id="ear-left" fill="#5D6D7E" x="50" y="80" width="40" height="81" rx="12"></rect>-->
+<!--                <rect id="ear-right" fill="#5D6D7E" x="396" y="80" width="40" height="81" rx="12"></rect>-->
+
+                    <g id="antenna-top">
+                        <rect id="antenna-rod" fill="#5D6D7E" x="240" y="-60" width="10" height="100" rx="0"
+                            stroke="white" stroke-width="5">
+                        </rect>
+                        <circle id="antenna-oval" fill="#FDA90B" cx="245" cy="-70" r="15" stroke="#5D6D7E" stroke-width="5"></circle>
+                        <rect id="antenna-base" x="205" y="-20" width="81" height="40" rx="12" fill="#0A4773" stroke="white" stroke-width="5"/>
+
+                    </g>
+
+
+                <rect id="head" fill="#0A4773" x="78" y="0" width="330" height="240" rx="80"
+                    stroke="white" stroke-width="5">
+                </rect>
+
+                <rect id="eyes" fill="#B6917B" x="130" y="80" width="230" height="90" rx="40" stroke="black" stroke-width="6"></rect>
+                <rect id="eye-left" fill="#763832" x="175" y="105" width="31" height="41" rx="26" stroke="#C1C1C1" stroke-width="8"></rect>
+                <rect id="eye-left" fill="#763832" x="294" y="105" width="31" height="41" rx="26" stroke="#C1C1C1" stroke-width="8"></rect>
+
+                <path d="M262.723472,193 C262.905337,194.115 263,195.260415 263,196.428571 C263,207.789858 254.045695,217 243,217 C231.954305,217 223,207.789858 223,196.428571 C223,195.260415 223.094663,194.115 223.276528,193 L262.723472,193 Z"
+                      id="mouth"
+                      fill="white">
+                </path>
+
+
+
+                <rect id="hand-left" fill="#B6917B" x="50" y="250" width="40" height="120" rx="12" stroke="white" stroke-width="5"></rect>
+                <rect id="hand-right" fill="#B6917B" x="395" y="250" width="40" height="120" rx="12" stroke="white" stroke-width="5"></rect>
+
+                <path id="body" d="M68.9117582,246 L417.090945,246 C425.375216,246 432.090945,252.715729 432.090945,261 C432.090945,262.17053 431.953933,263.337036 431.682705,264.475708 L400.631327,394.835972 C395.244775,417.449857 391.415541,425.220155 385.627213,432.914062 C379.838885,440.607968 372.531181,446.379453 363.705435,450.227461 C354.87969,454.075469 346.433582,456 323.187018,456 L162.815685,456 C139.569121,456 131.123013,454.075469 122.297268,450.227461 C113.471523,446.379453 106.163818,440.607968 100.37549,432.914062 C94.587162,425.220155 90.7579284,417.449857 85.3713767,394.835972 L54.3199985,264.475708 C52.4004178,256.416902 57.3772436,248.327821 65.4360499,246.40824 C66.5747223,246.137012 67.7412287,246 68.9117582,246 Z"
+                      fill="#0A4773" stroke="white" stroke-width="5">
+                </path>
+                <path d="M179.656034,460 L306.344262,460 L295.872405,479.143706 C293.541966,483.404005 292.452878,484.79381 291.000266,486.144536 C289.547655,487.495261 287.921759,488.459127 286.039624,489.085312 C284.157489,489.711497 282.415526,490 277.559489,490 L208.440807,490 C203.58477,490 201.842807,489.711497 199.960672,489.085312 C198.078537,488.459127 196.452641,487.495261 195.00003,486.144536 C193.547418,484.79381 192.45833,483.404005 190.127891,479.143706 L179.656034,460 Z"
+                      id="exhaust" stroke="white" stroke-width="5"
+                      fill="#0A4773">
+                </path>
+
+                <g id="Group" transform="translate(196.000000, 284.000000)">
+
+                     <path d=" M 210 210 l 35.355 35.355 l 0.000 50.000 l -35.355 35.355 l -50.000 0.000 l -35.355 -35.355 l 0.000 -50.000 l 35.355 -35.355 l 50.000 0.000"
+                        transform="translate(-140,-200)" fill="#5D6D7E" stroke="black" stroke-width="5">
+                    </path>
+
+                    <text x="30" y="90" fill="red" font-size="60" stroke="white" stroke-width="10">P</text>
+
+                </g>
+
+            </g>
+        </g>
+    </g>
+</svg>
